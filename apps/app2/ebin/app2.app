@@ -1,0 +1,8 @@
+{application,app2,
+             [{description,"App2"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {mod,{mod2,[]}},
+              {env,[]},
+              {modules,[mod2]}]}.
