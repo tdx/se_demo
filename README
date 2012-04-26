@@ -2,24 +2,32 @@
 
 2. Open se_demo/apps/app1/src/mod1.erl
 
+
 Current-Project.disasm
+
 {
 'mod1': [('f1/0', 'f1() $1'), ('module_info/0', 'module_info() $1'), ('module_info/1', 'module_info($1) $2')]
 }
 
+
 Current-Project.sublime-completions
+
 { "scope": "source.erlang", "completions": [ "erlang",
 { "trigger": "mod1", "contents": "mod1" }
 
 3. Open se_demo/apps/app2/src/mod2.erl
 
+
 Current-Project.disasm
+
 {
 'mod2': [('f2/0', 'f2() $1'), ('module_info/0', 'module_info() $1'), ('module_info/1', 'module_info($1) $2')]
 }
 
+
 Current-Project.sublime-completions
+
 { "scope": "source.erlang", "completions": [ "erlang",
 { "trigger": "mod2", "contents": "mod2" }
 
-4. Completion form mod2 for now not available.
+4. Completion from mod2 for now not available.
