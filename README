@@ -30,4 +30,4 @@ Current-Project.sublime-completions
 { "scope": "source.erlang", "completions": [ "erlang",
 { "trigger": "mod2", "contents": "mod2" }
 
-4. Completion from mod2 for now not available.
+4. Completion from mod1 for now not available.
